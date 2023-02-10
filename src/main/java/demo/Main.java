@@ -38,6 +38,7 @@ public class Main {
 		staff.assist();
 		
 		
+		
 		ApplicationContext context2 = new AnnotationConfigApplicationContext(BeanConfig.class);
 
 		Doctor doctor3 = (Doctor) context.getBean(Doctor.class);	//using java based configuration 
